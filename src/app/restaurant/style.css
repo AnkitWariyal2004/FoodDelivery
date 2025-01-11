@@ -1,0 +1,42 @@
+.header-wrapper{
+ display: flex;
+ justify-content: space-between;   
+}
+
+.header-wrapper ul{
+    display: flex;
+}
+
+.header-wrapper ul li{
+    list-style: none;
+    padding: 5px;
+}
+.header-wrapper ul li a{
+    text-decoration: none;
+}
+
+.header-wrapper ul li button{
+    background-color: goldenrod;
+    color: whitesmoke;
+    border: none;
+    color: blueviolet;
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer-wrapper{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    background-color: white;
+}
+
+.input-error {
+    color: red; /* Error text in red */
+    font-size: 14px; /* Smaller text for errors */
+    margin-top: -10px; /* Adjust spacing above the error */
+    margin-bottom: 10px; /* Add spacing below the error */
+    display: block; /* Ensure it appears on a new line */
+    font-weight: 500; /* Slightly bold for emphasis */
+  }
